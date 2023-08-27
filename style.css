@@ -1,0 +1,178 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3, title {
+    font-family: monospace;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+header p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Form Styles */
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form label {
+    font-size: 16px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button Styles */
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Hub Requirement Styles */
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+#plm, #aex, #hco, #siI, #soI, #sisoII, #qrI, #qrII, #iic, #gci,
+#etr, #fyw, #wri, #win, #osc, #dme, #crt, #ril, #twc, #cri {
+    font-weight: bold;
+}
+
+#classContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.satisfied {
+    text-decoration: line-through;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.checkboxLabel {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Course Labels Styles */
+
+.classEntry {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classEntry label{
+    margin-right: 10px;
+}
+
+.classLabel {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.removeButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.removeButton:hover {
+    background-color: #c82333;
+}
+
+.courseName {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+}

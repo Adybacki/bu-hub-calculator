@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>BU Hub Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Boston University Hub Credit Calculator</h1>
+      <p>
+        <a href="https://www.bu.edu/academics/search/" target="_blank"
+          >BU Course Search</a
+        ><br />
+        <a
+          href="https://www.bu.edu/hub/advising-and-the-hub/hub-requirements-for-students/"
+          target="_blank"
+          >BU Hub Page</a
+        >
+      </p>
+      <h2 id="satisfy">SATISFIED HUB: false</h2>
+      <div class="mainContent">
+        <form>
+          <h2>Hub Requirements:</h2>
+          <h3>PHILOSOPHICAL, AESTHETIC, AND HISTORICAL INTERPRETATION</h3>
+          <input type="checkbox" id="plmCB" value="plm" />
+          <label for="plmCB" id="plmLabel"
+            >plm: Philosophical Inquiry and Life’s Meanings (1 requirement) - </label
+          ><label id="plm"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="aexCB" value="aex" />
+          <label for="aexCB" id="aexLabel"
+            >aex: Aesthetic Exploration (1 requirement) - </label
+          ><label id="aex"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="hcoCB" value="hco" />
+          <label for="hcoCB" id="hcoLabel"
+            >hco: Historical Consciousness (1 requirement) - </label
+          ><label id="hco"></label><label><b> fulfilled</b></label
+          ><br />
+          <h3>SCIENTIFIC AND SOCIAL INQUIRY</h3>
+          <input type="checkbox" id="siICB" value="siI" />
+          <label for="siICB" id="siILabel"
+            >siI: Scientific Inquiry I (1 requirement) - </label
+          ><label id="siI"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="soICB" value="soI" />
+          <label for="soICB" id="soILabel"
+            >soI: Social Inquiry I (1 requirement) - </label
+          ><label id="soI"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="sisoIICB" value="sisoII" />
+          <label for="sisoIICB" id="sisoIILabel"
+            >sisoII: Scientific Inquiry II or Social Inquiry II (1 requirement)
+            - </label
+          ><label id="sisoII"></label><label><b> fulfilled</b></label
+          ><br />
+          <h3>QUANTITATIVE REASONING</h3>
+          <input type="checkbox" id="qrICB" value="qrI" />
+          <label for="qrICB" id="qrILabel"
+            >qrI: Quantitative Reasoning I (1 requirement) - </label
+          ><label id="qrI"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="qrIICB" value="qrII" />
+          <label for="qrIICB" id="qrIILabel"
+            >qrII: Quantitative Reasoning II (1 requirement) - </label
+          ><label id="qrII"></label><label><b> fulfilled</b></label
+          ><br />
+          <h3>DIVERSITY, CIVIC ENGAGEMENT, AND GLOBAL CITIZENSHIP</h3>
+          <input type="checkbox" id="iicCB" value="iic" />
+          <label for="iicCB" id="iicLabel"
+            >iic: The Individual in Community (1 requirement) - </label
+          ><label id="iic"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="gciCB" value="gci" />
+          <label for="gciCB" id="gciLabel"
+            >gci: Global Citizenship and Intercultural Literacy (2 requirements)
+            - </label
+          ><label id="gci"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="etrCB" value="etr" />
+          <label for="etrCB" id="etrLabel"
+            >etr: Ethical Reasoning (1 requirement) - </label
+          ><label id="etr"></label><label><b> fulfilled</b></label
+          ><br />
+          <h3>COMMUNICATION</h3>
+          <input type="checkbox" id="fywCB" value="fyw" />
+          <label for="fywCB" id="fywLabel"
+            >fyw: First-Year Writing Seminar (1 requirement) - </label
+          ><label id="fyw"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="wriCB" value="wri" />
+          <label for="wriCB" id="wriLabel"
+            >wri: Writing, Research, and Inquiry (1 requirement) - </label
+          ><label id="wri"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="winCB" value="win" />
+          <label for="winCB" id="winLabel"
+            >win: Writing-Intensive Course (2 requirements) - </label
+          ><label id="win"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="oscCB" value="osc" />
+          <label for="oscCB" id="oscLabel"
+            >osc: Oral and/or Signed Communication (1 requirement) - </label
+          ><label id="osc"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="dmeCB" value="dme" />
+          <label for="dmeCB" id="dmeLabel"
+            >dme: Digital/Multimedia Expression (1 requirement) - </label
+          ><label id="dme"></label><label><b> fulfilled</b></label
+          ><br />
+          <h3>INTELLECTUAL TOOLKIT</h3>
+          <input type="checkbox" id="crtCB" value="crt" />
+          <label for="crtCB" id="crtLabel"
+            >crt: Critical Thinking (2 requirements) - </label
+          ><label id="crt"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="rilCB" value="ril" />
+          <label for="rilCB" id="rilLabel"
+            >ril: Research and Information Literacy (2 requirements) - </label
+          ><label id="ril"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="twcCB" value="twc" />
+          <label for="twcCB" id="twcLabel"
+            >twc: Teamwork/Collaboration (2 requirements) - </label
+          ><label id="twc"></label><label><b> fulfilled</b></label
+          ><br />
+          <input type="checkbox" id="criCB" value="cri" />
+          <label for="criCB" id="criLabel"
+            >cri: Creativity/Innovation (2 requirements) - </label
+          ><label id="cri"></label><label><b> fulfilled</b></label
+          ><br />
+          <label
+            >Life Skills (opportunities selected by student; no requirements
+            needed)</label
+          >
+          <p>
+            <label for="courseName">Course Name: </label>
+            <input type="text" id="courseName" />
+            <button type="button" id="addCourse">Add Course</button>
+            <button type="button" id="reset">Reset</button>
+          </p>
+          <h2>Courses</h2>
+          <div id="classContainer"></div>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 Adrian Dybacki (adybacki@bu.edu).</p>
+      </footer>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
